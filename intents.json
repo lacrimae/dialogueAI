@@ -1,0 +1,78 @@
+{
+  "intents": [
+    {
+      "tag": "greetings",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "How are you?",
+        "Good morning",
+        "Greetings",
+        "How is it going?",
+        "What is up?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How can I help?",
+        "Hey! What can I do for you?"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "name",
+      "patterns": [
+        "What is your name?",
+        "How can I call you?"
+      ],
+      "responses": [
+        "I'm DialogueAI!",
+        "My name is DialogueAI."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Goodbye",
+        "Bye",
+        "See you later",
+        "Talk to you later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day.",
+        "Bye-bye! Come back soon.",
+        "Take care! See you soon."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thanks",
+        "Thank you",
+        "Appreciate it"
+      ],
+      "responses": [
+        "You're welcome!",
+        "Anytime!",
+        "Glad to help."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Can you help me?",
+        "I need assistance",
+        "Can you assist me?"
+      ],
+      "responses": [
+        "Of course! What do you need help with?",
+        "Sure thing. How can I assist you?",
+        "Absolutely. What do you require assistance with?"
+      ],
+      "context_set": ""
+    }
+  ]
+}
